@@ -1,0 +1,42 @@
+P {
+font-size : 16pt;
+color:blue;
+font-family : arial,helvetica;
+font-weight : normal;
+}
+H1 {
+font-size : 50pt;
+font-family : arial;
+text-decoration : underline;
+text-align : center;
+background-color : rgba(160, 32, 215, 0.59);
+color: #171414;
+}
+BODY {
+background-color : rgba(121, 232, 193, 0.52);
+font-family :arial;
+color : #2d2323;
+}
+H2 {
+    font-size: 24pt;
+    font-family: cursive;
+    text-align: izquierda;
+    c
+    text-align : center;
+    background-color : rgba(175, 236, 227, 0.62);
+}
+
+H3 {
+    font-size: 35pt;
+    font-family: arial;
+    text-align: center;
+    color: #0c0c0c;
+}
+
+H4 {
+font-size : 40pt;
+font-family : arial;
+text-decoration : underline;
+text-align : center;
+color: #20c5c5;
+}

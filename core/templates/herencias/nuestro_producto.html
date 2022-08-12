@@ -1,0 +1,114 @@
+{% extends 'herencias/BOUTIQUEM&G.html' %}
+{% block titulo %}
+CATALOGO DE PRODUCTO
+{% endblock %}
+{% block contenido  %}
+{% load static %}
+<center>
+  <h2>CATALOGO DE PRODUCTO Y PRECIO</h2>
+<IMG src="{% static 'core/imagen/123.jpg' %}">
+
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+td, th {
+  border: 1px solid #f1f5f5;
+  text-align: left;
+  padding: 16px;
+  font-size: 24pt;
+  color : #f5f1f1;
+}
+
+tr:nth-child(even) {
+   background-color: rgba(126, 62, 175, 0.47);
+  font-size: 24pt;
+  color : #f5f1f1;
+}
+</style>
+</head>
+<body>
+<table>
+  <tr>
+    <th>CODIGO DE PRODUCTO</th>
+    <th>DESCRIPCION DE PRODUCTO </th>
+    <th>PRECIO DEL PRODUCTO</th>
+  </tr>
+  <tr>
+    <td>PC001</td>
+    <td>BLUSA MANGA CORTA AZUL</td>
+    <td>$20,00</td>
+
+  </tr>
+  <tr>
+    <td>PC002</td>
+    <td>SHORT NEGRO TALLA M</td>
+    <td>$30,00</td>
+
+      <tr>
+    <td>PC003</td>
+    <td>PANTALON JEAN COLOR BLANCO</td>
+    <td>$40,00</td>
+  </tr>
+
+      <tr>
+    <td>PC004</td>
+    <td>FALDA A CUADROS</td>
+    <td>$30,00</td>
+  </tr>
+
+
+     <tr>
+       <td>PC005</td>
+    <td>CHOMPA CUERO TALLA M</td>
+    <td>$45,00</td>
+  </tr>
+
+  <tr>
+    <td>PC006</td>
+    <td>ZAPATOS TALLA 40</td>
+    <td>60,00</td>
+  </tr>
+
+  <tr>
+    <td>PC007</td>
+    <td>CARTERA DE MARCA M&G</td>
+    <td>$70,00</td>
+  </tr>
+
+  <tr>
+    <td>PC008</td>
+    <td> JEAN COLOR CELETE TALLA 20</td>
+    <td>$80,00</td>
+  </tr>
+
+  <tr>
+    <td>PC009</td>
+    <td>PANTALON DE CUERO </td>
+    <td>$40,00</td>
+  </tr>
+
+  <tr>
+    <td>PC010</td>
+    <td> INTERIOR/TANGA MARCA M&G</td>
+    <td>$20.00</td>
+  </tr>
+
+  <tr>
+    <td>PC011</td>
+    <td> BRASIER TALLA 16</td>
+    <td>$35,00</td>
+  </tr>
+
+</table>
+    </CENTER>
+
+</body>
+</html>
+{% endblock %}

@@ -1,0 +1,82 @@
+{% extends 'herencias/boutiqueM&G.html' %}
+{% block titulo %}
+BOUTIQUEM&G<
+{% endblock %}
+{% block contenido  %}
+
+
+{% load static %}
+<center>
+<IMG src="{% static 'core/imagen/CONTA.jpg' %}">
+  <h1>ESTAMOS EN LA PAGINA DE CONTACTO</h1>
+    </center>
+
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+td, th {
+  border: 1px solid #f1f5f5;
+  text-align: left;
+  padding: 14px;
+  font-size: 19pt;
+  color : #f5f1f1;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(210, 143, 42);
+  font-size: 19pt;
+  color : #f5f1f1;
+}
+</style>
+</head>
+<body>
+<h3>FORMULARIO</h3>
+
+
+<table>
+  <tr>
+    <th>NOMBRE:</th>
+    <th>TELEFONO </th>
+    <th>CORREO:</th>
+      <th>ASUNTO:</th>
+      <th>MENSAJE:</th>
+  </tr>
+
+    <tr>
+    <th>GRACE QUINTEROS CASTRO</th>
+    <th>0983116911 </th>
+    <th>GRACE2148@GMAIL.COM</th>
+      <th>COMPRAS</th>
+      <th>BUENOS DIAS,ME GUSTARIA COMPRA UN JEAN COLOR NEGRO EN TALLA 14</th>
+  </tr>
+
+  <tr>
+    <th>SOPHIA AGUILAR HURTADO</th>
+    <th>0983456911 </th>
+    <th>SOPHIA_A12@GMAIL.COM</th>
+      <th>COMPRAS</th>
+      <th>BUENAS TARDES,TIENE EN CATALOGO EL BRASIER Y EL INTERIOR TOP </th>
+  </tr>
+
+  <tr>
+    <th>MARINA POSLIGUA MERO</th>
+    <th>0934353661</th>
+    <th>POSLIGUAM@GMAIL.COM</th>
+      <th>COMPRAS:</th>
+      <th>BUENAS NOCHES,ME GUSTARIA SABER SI TIENE EN STOP BLUSA MANGA CORTA COLOR AZUL</th>
+  </tr>
+
+
+</table>
+    </CENTER>
+
+</body>
+</html>
+{% endblock %}

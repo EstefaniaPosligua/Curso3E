@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Noticias</title>
+	{% load static %}
+    <link rel="STYLESHEET"  href="{%static 'core/css/estilos.css'%}">
+	<link rel="STYLESHEET"  href="{%static 'core/css/menuUniverso.css'%}">
+
+</head>
+<body>
+
+<div class="nav">
+  <nav class="menuCSS3">
+		<ul>
+			<li><a href="{% url 'inicio' %}">INICIO</a></li>
+			<li><a href="{% url 'noticias' %}">NOTICIAS</a>
+				<ul>
+					<li><a href="">SOPHIA</a></li>
+					<li><a href="">NELSON</a></li>
+					<li><a href="">JACKSON</a></li>
+					<li><a href="#">HARRY</a></li>
+				</ul>
+			</li>
+			<li><a href="{% url 'deportes' %}">DEPORTES</a></li>
+
+				<ul>
+
+			</li>
+		</ul>
+	</nav>
+</div>
+<hi> BIENVENIDOS A LAS NOTICIAS</hi>
+<FOOTER class="fotter">
+	POSLIGUA MERO MARINA ESTEFANIA  3/E
+</FOOTER>
+</body>
+</html>

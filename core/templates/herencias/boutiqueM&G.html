@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block titulo %} {% endblock  %}</title>
+    {% load static %}
+    <link rel="STYLESHEET"  href="{%static 'core/css/estilos.css'%}">
+	<link rel="STYLESHEET"  href="{%static 'core/css/menuUniverso.css'%}">
+
+</head>
+<body>
+<h1> LECCIÓN DE PROGRAMACIÓN VISUAL </h1>
+<div class="nav">
+  <nav class="menuCSS3">
+		<ul>
+			<li><a href="{% url 'core' %}">INICIO</a></li>
+			<li><a href="{% url 'inicio' %}">BOUTIQUEM&G</a></li>
+			<li><a href="{% url 'quienes_somos' %}">QUIENES_SOMOS</a></li>
+			<li><a href="{% url 'nuestro_producto' %}">NUESTRO_PRODUCTO</a></li>
+			<li><a href="{% url 'contacto' %}">CONTACTO</a></li>
+			<li><a href="{% url 'quienes_somos1' %}">QUIENES SOMOS1</a></li>
+			<li><a href="{% url 'blog' %}">blog</a></li>
+
+		</ul>
+	</nav>
+</div>
+{% block contenido %} {% endblock %}
+<FOOTER class="fotter">
+	SISTEMA CON DJANGO 3E DERECHOS RESERVADOS
+</FOOTER>
+</body>
+</html>

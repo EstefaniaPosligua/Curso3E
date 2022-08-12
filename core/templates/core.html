@@ -1,0 +1,31 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MARINA POSLIGUA</title>
+    {% load static %}
+    <link rel="STYLESHEET"  href="{%static 'core/css/estilos.css'%}">
+	<link rel="STYLESHEET"  href="{%static 'core/css/menuUniverso.css'%}">
+
+
+</head>
+<body>
+<h1> MARINA POSLIGUA 3/E  </h1>
+<div class="nav">
+  <nav class="menuCSS3">
+		<ul>
+			<li><a href="{% url 'core' %}">INICIO</a></li>
+			<li><a href="{% url 'noticias' %}">NOTICIAS</a></li>
+			<li><a href="{% url 'deportes' %}">DEPORTES</a></li>
+			<li><a href="{% url 'inicio' %}">BOUTIQUEM&G</a></li>
+
+			</li>
+		</ul>
+	</nav>
+</div>
+<IMG src="{% static 'core/imagen/mae.jpg' %}">
+<FOOTER class="fotter">
+	SISTEMA CON DJANGO 3E DERECHOS RESERVADOS
+</FOOTER>
+</body>
+</html>
